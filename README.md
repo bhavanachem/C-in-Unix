@@ -1,14 +1,6 @@
 # C-in-Unix
 A collection of C programs designed to explore and implement core concepts of Unix systems programming. This repository includes topics such as file handling, process management, inter-process communication, shell scripting, and system calls.
 
-## Table of Contents
-
-1. Programs  
-   - [Date Extraction Program](#date-extraction-program)  
-   - [Number Guessing Game](#number-guessing-game)  
-2. [How to Use](#how-to-use)  
-3. [Learning Experience](#learning-experience)
-
 ---
 
 ## Programs
@@ -20,9 +12,8 @@ This program extracts dates in `MM/DD/YYYY` or `MM-DD-YYYY` format from a given 
 
 **Features:**  
 - Reads input from a specified text file.  
-- Extracts all dates in either `MM/DD/YYYY` or `MM-DD-YYYY` format.  
-- Writes the extracted dates to a separate output file.  
-- Validates date formats to ensure accuracy.  
+- Extracts all dates in many formats including `MM/DD/YYYY` and `MM-DD-YYYY`.  
+- Writes the extracted dates to a separate output file.
 
 **How to Use:**  
 1. Run the program and provide the path to the input text file when prompted.  
